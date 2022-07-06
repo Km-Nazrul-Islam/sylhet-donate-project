@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1180px;
+}
+
+/* Reapetable Section Start Here */
+
+button {
+    background: #FF5959;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+    transition: .4s;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333333;
+    font-weight: bold;
+    font-family: 'Handlee', cursive;
+}
+
+.section-title p {
+    font-size: 20px;
+    color: #878787;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 20px;
+    color: #878787;
+    font-weight: bold;
+}
+
+.icon-style {
+    width: 90px;
+    height: 90px;
+    font-size: 48px;
+    background: #009578;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+/* Reapetable Section End Here */
+
+/* Header Section Start Here */
+
+header {
+    background-image: url(img/sylhetflood12.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#banner-section {
+    padding: 20px 20px;
+}
+
+.banner-container {
+    height: 100vh;
+}
+
+.banner-content {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.banner-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Handlee', cursive;
+}
+
+.banner-content p {
+    font-size: 24px;
+    color: lightgray;
+}
+
+.banner-content a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Header Section End Here */
+
+/* Donate Section Start Here */
+
+#donate-today-section {
+    padding: 20px 20px;
+}
+
+.donate-amount {
+    padding: 20px 20px;
+}
+
+.donate-item {
+    display: flex;
+    gap: 90px;
+}
+
+.donate-col {
+    padding: 20px 30px;
+}
+
+.donate-col a {
+    font-size: 20px;
+    color: #707070;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.donate-col:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+    transition: .4s;
+    border: 2px solid #FFA8A8;
+}
+
+form {
+    border-bottom: 1px solid gray;
+}
+
+.amount-box {
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    border: none;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+/* Donate Section End Here */
+
+
+/* Our Donate Plane Start Here */
+
+#our-donate-plane {
+    padding: 20px 20px;
+}
+
+/* Our Donate Plane End Here */
+
+/* Our Donate Activities Section Start Here */
+
+#donate-area-section {
+    padding: 20px 20px;
+}
+
+.donate-area {
+    display: flex;
+    gap: 20px;
+}
+
+.donate-area-col:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 4px 3px gray;
+    transition: 2s;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.donate-area-col img {
+    width: 270px;
+    height: auto;
+}
+
+/* Our Donate Activities Section End Here */
+
+/* Contact Area Section Sstart Here */
+
+#contact-section {
+    background-color: #d1e0f5;
+    padding: 20px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.contact-area input {
+    background: #F2F2F2;
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 10px 2%;
+    margin-bottom: 20px;
+    width: 96%;
+}
+
+.contact-area textarea {
+    background: #F2F2F2;
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 50px 2%;
+    margin-bottom: 20px;
+    width: 96%;
+}
+
+.contact-area input[type="submit"] {
+    width: 100px;
+    color: #b92d1f;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-area input[type="submit"]:hover {
+    background: #b92d1f;
+    color: #fff;
+    transition: .4s;
+}
+
+/* Contact Area Section End Here */
+
+/* Footer Area Section Start Here */
+
+#footer-area-section {
+    padding: 20px 20px;
+    background: #0c0a0a;
+}
+
+.footer-area {
+    display: flex;
+    gap: 90px;
+}
+
+.footer-area-col-one p {
+    font-size: 16px;
+    color: lightslategray;
+    text-decoration: underline;
+    line-height: 2em;
+}
+
+.footer-area-col-one span {
+    color: rgb(189, 61, 61);
+    text-decoration: none;
+}
+
+.footer-area-col-tow a {
+    font-size: 16px;
+    color: lightslategray;
+    text-decoration: none;
+    line-height: 1rem;
+}
+
+.footer-area-col-tow a:hover {
+    color: green;
+    transition: .4s;
+}
+
+.icon-footer {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+/* Footer Area Section End Here */
+
+/* Copyright Section Start Here */
+
+#copyright-section {
+    padding: 20px 20px;
+    background: #0C0A0A;
+    display: flex;
+    padding: 20px;
+}
+
+.copyright-col p {
+    font-size: 14px;
+    color: lightgrey;
+}
+
+/* Copyright Section End here */
